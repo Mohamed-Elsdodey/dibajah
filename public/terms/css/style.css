@@ -1,0 +1,144 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+@font-face {
+  font-family: Tajawal;
+  src: url(../webfonts/Tajawal-Regular.ttf);
+}
+
+* {
+  font-family: "Cairo", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #e4e4e4;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #980747;
+  outline: 1px solid #980747;
+  border-radius: 20px !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.form-control:focus {
+  border: 1px solid #fff;
+  -webkit-box-shadow: 0px 2px 2px 1px #bb08ec53;
+          box-shadow: 0px 2px 2px 1px #bb08ec53;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.color1 {
+  color: #61259e;
+}
+
+.color2 {
+  color: #980747;
+}
+
+.BG1 {
+  background-color: #61259e;
+}
+
+.BG2 {
+  background-color: #980747;
+}
+
+.row {
+  margin: 0px;
+}
+
+.BT80 {
+  padding-top: 80px;
+}
+
+.navbar {
+  padding: 0px;
+}
+
+.navbar .navbar-brand img {
+  height: 60px;
+  margin: 0px 10px;
+}
+
+.navbar .nav-link {
+  padding: 15px 25px;
+  margin: 0px 5px;
+  border-radius: 0 20px 0 20px;
+}
+
+.navbar .nav-link:hover {
+  background-color: #980747 !important;
+  color: #fff !important;
+  -webkit-transition: 0.3s all ease-in-out !important;
+  transition: 0.3s all ease-in-out !important;
+}
+
+.navbar .nav-link .active {
+  background-color: #980747 !important;
+  color: #fff !important;
+  border-radius: 8px;
+}
+
+/* /////////////////////////////////////////  */
+/* ////////////////////////////////////////  */
+/* ///////////////////  logo   /////////////// */
+/* //////////////////////////////////////  */
+/* /////////////////////////////////////////  */
+/* /////////////////////////////////////////  */
+/* ////////////////////////////////////////  */
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo .image img {
+  width: 90px;
+}
+
+/* /////////////////////////////////////////  */
+/* ////////////////////////////////////////  */
+/* ///////////////////  Services   /////////////// */
+/* //////////////////////////////////////  */
+/* /////////////////////////////////////////  */
+/* /////////////////////////////////////////  */
+/* ////////////////////////////////////////  */
+/* /////////////////////////////////////////  */
+/* ////////////////////////////////////////  */
+/* ///////////////////  .app-img   /////////////// */
+/* //////////////////////////////////////  */
+/* /////////////////////////////////////////  */
+/* /////////////////////////////////////////  */
+/* ////////////////////////////////////////
+  */
+/*# sourceMappingURL=style.css.map */
